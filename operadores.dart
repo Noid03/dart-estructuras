@@ -15,6 +15,6 @@ main(){
     double g = 9.81234;
 
     //entrega todos sus valores 
-    print(object: "el valor de g con todos sus decimales: $g")
+    print(object: "el valor de g con todos sus decimales: $g");
 
 }

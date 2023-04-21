@@ -82,11 +82,11 @@ void main() {
 
   // Eliminando un elemento en especifico de la lista
   numeros.removeAt(6);
-  print("lista actualizada: $numeros")
+  print("lista actualizada: $numeros");
 
   // Eliminar el ultimo elemento de la lista
   numeros.removeLast();
-  print("lista actualizada con el ultimo numero eliminado: $numeros")
+  print("lista actualizada con el ultimo numero eliminado: $numeros");
 
   //Restringiendo el tipo de variables a la Lista
   List<int> nuevoarray = [1, 2, 3, 4, 5];
