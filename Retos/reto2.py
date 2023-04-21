@@ -5,7 +5,7 @@
 import array
 import random
 Numero =random.randint(10,30)
-Arreglo = array.array('i', [random.randint(0, 100) for _ in range(Numero)])
+Arreglo = array.array('i', [random.randint(-1000, 1000) for _ in range(Numero)])
 print(Arreglo)
 
 busqueda = int(input("Ingrese el elemento que desea buscar en el arreglo:\n"))
