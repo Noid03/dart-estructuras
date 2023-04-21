@@ -69,6 +69,9 @@ void main() {
   print("06-LISTAS");
   print("Esta es una lista conformada por los siguientes elementos:  $numeros");
 
+  // Accediendo a un elemento en espesifico de la lista
+  print(numeros[0]);
+
   // Agregando un nuevo elemento a la lista (Númerico)
   numeros.add(6);
   print("Lista actualizada con el último elemento agregado: $numeros");
@@ -76,6 +79,14 @@ void main() {
   // Agregando un nuevo elemento a la lista (String)
   numeros.add("Casa");
   print("Lista actualizada con el último elemento agregado: $numeros");
+
+  // Eliminando un elemento en especifico de la lista
+  numeros.removeAt(6);
+  print("lista actualizada: $numeros")
+
+  // Eliminar el ultimo elemento de la lista
+  numeros.removeLast();
+  print("lista actualizada con el ultimo numero eliminado: $numeros")
 
   //Restringiendo el tipo de variables a la Lista
   List<int> nuevoarray = [1, 2, 3, 4, 5];
@@ -112,5 +123,6 @@ void main() {
 
   //Ahora probabamos la mutabilidad de Const
   //const date = new DateTime.now();
+  //final (se utiliza esto ya que la fecha no es una constante)
   //print("La fecha actual es: $date");
 }
